@@ -10,7 +10,7 @@ SASS:
 
 Como proposta principal temos a reformulação total do SASS no modelo que foi aprovada pela equipe, esta reformulação será responsável por toda mudança e aperfeiçoamento do trabalho como todo. A proposta consiste em separar o trabalho em 3 categorias, **DESENVOLVIMENTO**, **DECLARAÇÃO **e **PRODUÇÃO**:
 
-![image alt text](image_0.jpg)
+![image alt text](readme/image_0.jpg)
 
 **DESENVOLVIMENTO:**
 
@@ -103,7 +103,7 @@ Este procedimento requer uma série de ações para que se consiga chegar no obj
 
 Será necessária a análise completa da loja para que a equipe tenha uma visão geral do projeto e assim conseguir "quebrar" todo projeto em partes, inclusive páginas mais complexas como Detalhe do Produto e Detalhe do Look deste modo tornar possível que mais de uma pessoa trabalhe inclusive no desenvolvimento da mesma página:
 
-![image alt text](image_1.jpg)
+![image alt text](readme/image_1.jpg)
 
 2. **SASS**
 
@@ -117,13 +117,13 @@ Nesta etapa iremos configurar um pré-processador para automatizar o trabalho de
 
 Quando o trabalho simultâneo for necessário iremos utilizar o GIT para criar uma Branch para cada feature que será desenvolvida, como no passo 1 e 2 já criamos os componentes de forma independente e já temos conhecimento dos componentes da loja podemos trabalhar de forma isolada em cada componente:
 
-![image alt text](image_2.jpg)	
+![image alt text](readme/image_2.jpg)	
 
 5. **CSS**
 
 Tendo o CSS final desmembrado conseguimos focar os trabalhos em cada componente, um componente ao ser salvo será gerado um CSS específico dele que por fim será incluso no arquivo CSS da loja:
 
-![image alt text](image_3.jpg)
+![image alt text](readme/image_3.jpg)
 
 
 
