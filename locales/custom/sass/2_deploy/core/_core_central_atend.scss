@@ -1,0 +1,81 @@
+//CENTRAL DE ATENDIMENTO
+// ====================================================================
+%g_core_central_atend {
+    #main .nav {
+        li {
+            @include box-sizing();
+            @include transition();
+        }
+    }
+    &:not(.internal) {
+        #main .nav {
+            >ul {
+                @include flexbox(flex, row, wrap, space-between, initial, flex-start);
+                @include box-sizing();
+                @include transition();
+                width: 100%;
+                padding: 10px;
+                >li {
+                    @media #{$res-xs} {
+                        width: 100%;
+                    }
+                    @media #{$res-sm} {
+                        width: calc(50% - 10px);
+                    }
+                    @media #{$res-md} {
+                        width: calc(50% - 10px);
+                    }
+                    @media #{$res-lg} {
+                        width: calc(33% - 10px);
+                    }
+                    @media #{$res-xl} {
+                        width: calc(25% - 10px);
+                    }
+                    height: auto;
+                    padding: 0px;
+                    margin: 10px 0px;
+                }
+                &:after{
+                    content: "";
+                    flex: auto;
+                }
+            }
+        }
+    }
+    &.internal {
+        #main .nav>ul {
+            @include flexbox(flex, column, wrap, flex-start, flex-start, flex-start);
+            @include box-sizing();
+            width: 100%;
+            padding: 10px;
+        }
+    }
+}
+
+%d_core_central_atend {
+    .box {
+        .nav {
+            li {
+                width: calc(33% - 10px);
+                margin: 10px 0px;
+            }
+        }
+    }
+}
+
+%m_core_central_atend {
+    .box {
+        .nav {
+            li {
+                @media (max-width: 400px) {
+                    width: 100%;
+                    margin: 10px 0px;
+                }
+                @media (min-width: 401px) {
+                    width: calc(50% - 10px);
+                    margin: 10px 0px;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,12 @@
+//DEPENDENCES
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/home";
+
+
+//DECLARATIONS
+//----------------------------------------------
+body.home{
+    @extend %g_home, %m_home;
+    @extend %g_home-specialstore, %m_home-specialstore;
+}

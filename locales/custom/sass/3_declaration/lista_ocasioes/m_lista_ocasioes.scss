@@ -1,0 +1,15 @@
+//DEPENDENCIAS
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/lista_ocasioes";
+
+//DECLARAÇÕES
+//----------------------------------------------
+body.page-main-lists{
+    @extend %g_lista_ocasioes-containers, %m_lista_ocasioes-containers;
+    @extend %g_lista_ocasioes-filter, %m_lista_ocasioes-filter;
+    @extend %g_lista_ocasioes-listProd, %m_lista_ocasioes-listProd;
+    @extend %g_lista_ocasioes-boxDetails, %m_lista_ocasioes-boxDetails;
+    @extend %g_lista_ocasioes-details, %m_lista_ocasioes-details;
+    @extend %g_lista_ocasioes-coment, %m_lista_ocasioes-coment;
+}

@@ -1,0 +1,14 @@
+//DEPENDENCES
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/contato";
+
+
+//DECLARATIONS
+//----------------------------------------------
+body.institucional.internal{
+    @extend %g_contato-container, %m_contato-container;
+    @extend %g_contato-texts, %m_contato-texts;
+    @extend %g_contato-form, %m_contato-form;
+    @extend %g_contato-action, %m_contato-action;
+}

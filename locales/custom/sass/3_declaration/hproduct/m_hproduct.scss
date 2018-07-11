@@ -1,0 +1,46 @@
+//DEPENDENCES
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/core/core_hproduct";
+@import "../../2_deploy/hproduct";
+
+
+//DECLARATIONS
+//----------------------------------------------
+body #main .list-products{
+    //CORE - NÃO REMOVER
+    @extend %g_core_hproduct, %m_core_hproduct;
+    @extend %g_core_hproduct-photo, %m_core_hproduct-photo;
+    @extend %g_core_hproduct-quickbutton, %m_core_hproduct-quickbutton;
+    @extend %g_core_hproduct-tools, %m_core_hproduct-tools;
+    @extend %g_core_hproduct-name, %m_core_hproduct-name;
+    @extend %g_core_hproduct-offers, %m_core_hproduct-offers;
+    @extend %g_core_hproduct-pricefrom, %m_core_hproduct-pricefrom;
+    @extend %g_core_hproduct-priceto, %m_core_hproduct-priceto;
+    @extend %g_core_hproduct-discount, %m_core_hproduct-discount;
+    @extend %g_core_hproduct-parcel, %m_core_hproduct-parcel;
+    @extend %g_core_hproduct-stamps, %m_core_hproduct-stamps;
+    @extend %g_core_hproduct-unavailable, %m_core_hproduct-unavailable;
+    @extend %g_core_hproduct-reviewaggregate, %m_core_hproduct-reviewaggregate;
+    @extend %g_core_hproduct-compare, %g_core_hproduct-compare;
+    @extend %g_core_hproduct-buy, %m_core_hproduct-buy;
+    @extend %g_core_hproduct-seeMore, %m_core_hproduct-seeMore;
+
+    //IMPLANTAÇÃO
+    @extend %g_hproduct, %m_hproduct;
+    @extend %g_hproduct-photo, %m_hproduct-photo;
+    @extend %g_hproduct-quickbutton, %m_hproduct-quickbutton;
+    @extend %g_hproduct-tools, %m_hproduct-tools;
+    @extend %g_hproduct-name, %m_hproduct-name;
+    @extend %g_hproduct-offers, %m_hproduct-offers;
+    @extend %g_hproduct-pricefrom, %m_hproduct-pricefrom;
+    @extend %g_hproduct-priceto, %m_hproduct-priceto;
+    @extend %g_hproduct-discount, %m_hproduct-discount;
+    @extend %g_hproduct-parcel, %m_hproduct-parcel;
+    @extend %g_hproduct-stamps, %m_hproduct-stamps;
+    @extend %g_hproduct-unavailable, %m_hproduct-unavailable;
+    @extend %g_hproduct-reviewaggregate, %m_hproduct-reviewaggregate;
+    @extend %g_hproduct-compare, %g_hproduct-compare;
+    @extend %g_hproduct-buy, %m_hproduct-buy;
+    @extend %g_hproduct-seeMore, %d_hproduct-seeMore;
+}

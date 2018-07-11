@@ -1,0 +1,15 @@
+//DEPENDENCES
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/pedido_detalhe";
+
+//DECLARATIONS
+//----------------------------------------------
+body.meuspedidos {
+    
+    //IMPLANTACAO
+    @extend %g_pedido__detalhe-text, %m_pedido__detalhe-text;
+    @extend %g_pedido__detalhe-status, %m_pedido__detalhe-status;
+    @extend %g_pedido__detalhe-result, %m_pedido__detalhe-result;
+    @extend %g_pedido__detalhe-address, %m_pedido__detalhe-address;
+}

@@ -1,0 +1,15 @@
+//DEPENDENCES
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/checkout";
+
+//DECLARATIONS
+//----------------------------------------------
+body.op-checkout {
+    
+    //IMPLANTACAO
+    @extend %g_checkout-icons, %d_checkout-icons;
+    @extend %g_checkout-buttons, %d_checkout-buttons;
+    @extend %g_checkout-address, %d_checkout-address;
+    @extend %g_checkout-summary, %d_checkout-summary;
+}

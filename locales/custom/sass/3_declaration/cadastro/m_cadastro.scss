@@ -1,0 +1,18 @@
+//DEPENDENCES
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/cadastro";
+
+
+
+//DECLARATIONS
+//----------------------------------------------
+body.register:not(.delivery-address):not(.affiliates){
+    @extend %g_cadastro-containers, %m_cadastro-containers;
+    @extend %g_cadastro-fields, %m_cadastro-fields;
+    @extend %g_cadastro-inputs, %m_cadastro-inputs;
+    @extend %g_cadastro-dadosAdicionais, %m_cadastro-dadosAdicionais;
+    @extend %g_cadastro-actions, %m_cadastro-actions;
+}
+
+

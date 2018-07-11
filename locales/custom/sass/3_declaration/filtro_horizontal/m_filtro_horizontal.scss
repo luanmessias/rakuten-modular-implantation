@@ -1,0 +1,14 @@
+//DEPENDENCIAS
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/filtro_horizontal";
+
+//DECLARAÇÕES
+//----------------------------------------------
+#main .content{
+    @extend %g_filtro_horizontal-container, %m_filtro_horizontal-container;
+    @extend %g_filtro_horizontal-orderby, %m_filtro_horizontal-orderby;
+    @extend %g_filtro_horizontal-filterDetails, %m_filtro_horizontal-filterDetails;
+    @extend %g_filtro_horizontal-divOptionsSearch, %m_filtro_horizontal-divOptionsSearch;
+    @extend %g_filtro_horizontal-selecionados, %m_filtro_horizontal-selecionados;
+}

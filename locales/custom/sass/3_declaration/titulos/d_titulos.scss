@@ -1,0 +1,17 @@
+//DEPENDENCIAS
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/titulos";
+
+//DECLARAÇÕES
+//----------------------------------------------
+body{
+    //Titulos - Seções
+    @extend %g_titulo-secoes, %d_titulo-secoes;
+
+    //Titulos - Institucionais & Fechamento
+    @extend %g_titulo-inst, %d_titulo-inst;
+
+    //Titulos - Modais
+    @extend %g_titulo-modais, %d_titulo-modais;
+}

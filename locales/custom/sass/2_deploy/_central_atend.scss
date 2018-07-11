@@ -1,0 +1,69 @@
+//CENTRAL DE ATENDIMENTO - CORE 1 - CONFIG / DEPLOY
+//====================================================================
+$central-icon-color: #000;
+
+$central-title-font: $font-one;
+$central-title-color: #383838;
+
+$central-link-font: $font-one;
+$central-link-color: #383838;
+$central-link-color-hover: #000;
+
+$central-desc-font: $font-one;
+$central-desc-color: #000;
+
+
+%g_central_atend-box {
+    #main .nav .box {
+        border: 1px solid $border-master-color;
+        padding: 0px;
+        background: transparent;
+        >div {
+            border: 0px;
+            padding: 0px;
+        }
+        h2 {
+            @include box-sizing();
+            padding: 10px;
+            border-bottom: 1px solid $border-master-color;
+            @include fonte($central-title-font, bold, 18px, $central-title-color);
+        }
+        li {
+            @include box-sizing();
+            width: 100%;
+            padding: 5px 15px;
+            margin: 0px;
+            a,
+            &.televendas {
+                @include fonte($central-link-font, 400, 14px, $central-link-color);
+                &:hover {
+                    @include fonte($central-link-font, 400, 14px, $central-link-color-hover);
+                    text-decoration: none;
+                }
+                &:before {
+                    @include set-icon($fa-var-chevron-right, 10px, 900, #000);
+                    margin-right: 5px;
+                }
+            }
+            &>span {
+                @include fonte($central-desc-font, 400, 12px, $central-desc-color);
+                @include box-sizing();
+                padding-left: 15px;
+                display: block;
+                width: 100%;
+            }
+        }
+    }
+}
+
+%d_central_atend-box{
+    #remover_este_bloco {
+        display: none;
+    }
+}
+
+%m_central_atend-box{
+    #remover_este_bloco {
+        display: none;
+    }
+}

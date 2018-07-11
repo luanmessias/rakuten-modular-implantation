@@ -1,0 +1,15 @@
+//DEPENDENCIAS
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/filtro_vertical";
+
+//DECLARAÇÕES
+//----------------------------------------------
+#main .aside{
+    @extend %g_filtro_vertical-container, %m_filtro_vertical-container;
+    @extend %g_filtro_vertical-titulos, %m_filtro_vertical-titulos;
+    @extend %g_filtro_vertical-itens, %m_filtro_vertical-itens;
+    @extend %g_filtro_vertical-skus, %m_filtro_vertical-skus;
+    @extend %g_filtro_vertical-newsletter, %m_filtro_vertical-newsletter;
+    @extend %g_filtro_vertical-banners, %m_filtro_vertical-banners;
+}

@@ -1,0 +1,14 @@
+//DEPENDENCES
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/enderecos";
+
+
+//DECLARATIONS
+//----------------------------------------------
+body.register.delivery-address{
+    @extend %g_enderecos-container, %d_enderecos-container;
+    @extend %g_enderecos-boxes, %d_enderecos-boxes;
+    @extend %g_enderecos-form, %d_enderecos-form;
+    @extend %g_enderecos-action, %d_enderecos-action;
+}

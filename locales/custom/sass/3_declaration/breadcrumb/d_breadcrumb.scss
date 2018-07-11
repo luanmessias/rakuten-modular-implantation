@@ -1,0 +1,13 @@
+//DEPENDENCIAS
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/breadcrumb";
+
+//DECLARAÇÕES
+//----------------------------------------------
+body #main #breadcrumbs{
+    @extend %g_breadcrumb-container, %d_breadcrumb-container;
+    @extend %g_breadcrumb-desc, %d_breadcrumb-desc;
+    @extend %g_breadcrumb-arrow, %d_breadcrumb-arrow;
+    @extend %g_breadcrumb-itens, %d_breadcrumb-itens;
+}

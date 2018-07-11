@@ -1,0 +1,16 @@
+//DEPENDENCES
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/core/core_central_atend";
+@import "../../2_deploy/central_atend";
+
+
+//DECLARATIONS
+//----------------------------------------------
+body.institucional{
+    //CORE - NÃO REMOVER
+    @extend %g_core_central_atend, %d_core_central_atend;
+
+    //IMPLANTAÇÃO
+    @extend %g_central_atend-box, %m_central_atend-box;
+}

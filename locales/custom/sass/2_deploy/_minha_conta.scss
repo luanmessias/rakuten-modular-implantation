@@ -1,0 +1,69 @@
+//MINHA CONTA - CORE 1 - CONFIG / DEPLOY
+//====================================================================
+//Colors
+$myacc-icon-color: #383838;
+$myacc-link-color: #383838;
+$myacc-link-hover-bg: #dddddd;
+$myacc-desc-color: #000;
+
+//Font
+$myacc-link-font: $font-one;
+$myacc-desc-font: $font-one;
+
+%g_minha_conta{
+    .box{
+        .nav{
+            li{
+                border: 1px solid $border-master-color;
+                &:hover{
+                    a{
+                        background: $myacc-link-hover-bg;
+                    }
+                }
+                a{
+                    @include fonte($myacc-link-font, normal, 16px, $myacc-link-color);
+                    background: transparent;
+                    text-transform: uppercase;
+                    border-bottom: 1px solid $border-master-color;
+                    &:hover{
+                        text-decoration: none;
+                    }
+                    &[href*="meucadastro"]:before {
+                        @include set-icon($fa-var-address-card, 18px, 400, $myacc-icon-color);
+                    }
+                    &[href*="senhaalteracao"]:before {
+                        @include set-icon($fa-var-user-shield, 18px, 900, $myacc-icon-color);
+                    }
+                    &[href*="enderecos"]:before {
+                        @include set-icon($fa-var-map-marker, 18px, 900, $myacc-icon-color);
+                    }
+                    &[href*="meuspedidos"]:before {
+                        @include set-icon($fa-var-shopping-cart, 18px, 900, $myacc-icon-color);
+                    }
+                    &[href*="contacorrente"]:before {
+                        @include set-icon($fa-var-credit-card, 18px, 400, $myacc-icon-color);
+                    }
+                    &[href*="lista"]:before, {
+                        @include set-icon($fa-var-heart, 18px, 900, $myacc-icon-color);
+                    }
+                }
+                span{
+                    @include fonte($myacc-desc-font, normal, 12px, $myacc-desc-color);
+                    text-align: left;
+                }
+            }
+        }
+    }
+}
+
+%d_minha_conta {
+    #remover_este_bloco {
+        display: none;
+    }
+}
+
+%m_minha_conta {
+    #remover_este_bloco {
+        display: none;
+    }
+}

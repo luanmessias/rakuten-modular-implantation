@@ -1,0 +1,41 @@
+//DEPENDENCES
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/core/core_look";
+@import "../../2_deploy/look";
+
+
+
+//DECLARATIONS
+//----------------------------------------------
+body.lookDetalhe {
+
+    //CORE
+    @extend %g_core_look-containers, %d_core_look-containers;
+    @extend %g_core_look-photo, %d_core_look-photo;
+    @extend %g_core_look-thumbs, %d_core_look-thumbs;
+    @extend %g_core_look-details, %d_core_look-details;
+    @extend %g_core_look_aside-container, %d_core_look_aside-container;
+
+    //IMPLANTACAO
+    @extend %g_look-nome, %d_look-nome;
+    @extend %g_look-fabcod, %d_look-fabcod;
+    @extend %g_look-reviewagreggate, %d_look-reviewagreggate;
+    @extend %g_look-selos, %d_look-selos;
+    @extend %g_look-offers, %d_look-offers;
+    @extend %g_look-precoDe, %d_look-precoDe;
+    @extend %g_look-precoPor, %d_look-precoPor;
+    @extend %g_look-desconto, %d_look-desconto;
+    @extend %g_look-parcel, %d_look-parcel;
+    @extend %g_look-quantity, %d_look-quantity;
+    @extend %g_look-save, %d_look-save;
+    @extend %g_look-thumbs, %d_look-thumbs;
+    @extend %g_look-social, %d_look-social;
+    @extend %g_look-tools, %d_look-tools;
+    @extend %g_look_aside-container, %d_look_aside-container;
+    @extend %g_look_aside-title, %d_look_aside-title;
+    @extend %g_look_aside-sku, %d_look_aside-sku;
+    @extend %g_look_aside-name, %d_look_aside-name;
+    @extend %g_look_aside-offers, %d_look_aside-offers;
+    @extend %g_look_aside-notifyme, %d_look_aside-notifyme;
+}

@@ -1,0 +1,27 @@
+//DEPENDENCES
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/core/core_header";
+@import "../../2_deploy/header";
+
+
+//DECLARATIONS
+//----------------------------------------------
+body #header{
+    @extend %g_core_header-container, %m_core_header-container;
+    @extend %g_core_header-fixed, %m_core_header-fixed;
+    @extend %g_core_header-logo, %m_core_header-logo;
+    @extend %g_core_header-search, %m_core_header-search;
+    @extend %g_core_header-headerbuy, %m_core_header-headerbuy;
+    //Only Mobile
+    @extend %m_core_header-btMobile;
+    @extend %m_core_header-searchMobile;
+}
+
+body {
+    @extend %g_core_header-nav, %m_core_header-nav;
+    @extend %g_core_header-subnav, %m_core_header-subnav;
+    @extend %g_core_header-iconav, %m_core_header-iconav;
+    @extend %g_core_header-welcome, %m_core_header-welcome;
+}
+

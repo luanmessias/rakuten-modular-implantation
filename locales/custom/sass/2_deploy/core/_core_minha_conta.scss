@@ -1,0 +1,60 @@
+%g_core_minha_conta {
+    .box {
+        @include box-sizing();
+        transition: all 0.5s ease;
+        width: 100%;
+        background: transparent;
+        border: 0px;
+        .nav {
+            @include flexbox(flex, row, wrap, space-between, initial, flex-start);
+            li {
+                @include box-sizing();
+                transition: all 0.5s ease;
+                width: auto;
+                padding: 0px;
+                a {
+                    @include box-sizing();
+                    transition: all 0.5s ease;
+                    padding: 10px;
+                    display: block;
+                }
+                span {
+                    @include box-sizing();
+                    transition: all 0.5s ease;
+                    padding: 10px;
+                    display: block;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+%d_core_minha_conta {
+    .box {
+        .nav {
+            li {
+                width: calc(33% - 10px);
+                margin: 10px 0px;
+            }
+        }
+    }
+}
+
+%m_core_minha_conta {
+    .box {
+        .nav {
+            li {
+                @media (max-width: 400px) {
+                    width: 100%;
+                    margin: 10px 0px;
+                }
+                @media (min-width: 401px) {
+                    width: calc(50% - 10px);
+                    margin: 10px 0px;
+                }
+               
+            }
+        }
+    }
+}

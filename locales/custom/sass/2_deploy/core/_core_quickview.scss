@@ -1,0 +1,21 @@
+// CORE - QUICKVIEW - CONTAINERS
+// ====================================================================
+%d_core_quickview-containers {
+   #fancybox-wrap.fancybox-quickview{
+       width: $page-w !important;
+       margin-left: -($page-w / 2) !important;
+       left: 50% !important;
+       #fancybox-content{
+           @include box-sizing();
+           width: 100% !important;
+       }
+   }
+}
+
+// CORE - QUICKVIEW - FAB-COD
+// ====================================================================
+%d_quickview-fabcod{
+    &.quickview #main .fab-cod {
+        width: 100%;
+    }
+}

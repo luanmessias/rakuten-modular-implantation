@@ -1,0 +1,16 @@
+//DEPENDENCES
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/body";
+
+
+//DECLARATIONS
+//----------------------------------------------
+body{
+    @extend %g_body, %d_body;
+    @extend %g_body_normalize-inputs, %d_body_normalize-inputs;
+    @extend %g_body_normalize-buttons, %d_body_normalize-buttons;
+    @extend %g_body_normalize-headerFixed, %d_body_normalize-headerFixed;
+    @extend %g_body_normalize-listProducts, %d_body_normalize-listProducts;
+    @extend %g_body_normalize_banner-assets, %d_body_normalize_banner-assets;
+}

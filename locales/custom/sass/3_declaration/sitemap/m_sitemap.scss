@@ -1,0 +1,13 @@
+//DEPENDENCES
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/sitemap";
+
+
+//DECLARATIONS
+//----------------------------------------------
+body.sitemap{
+    @extend %g_sitemap-container, %m_sitemap-container;
+    @extend %g_sitemap-categories, %m_sitemap-categories;
+    @extend %g_sitemap-fab, %m_sitemap-fab;
+}

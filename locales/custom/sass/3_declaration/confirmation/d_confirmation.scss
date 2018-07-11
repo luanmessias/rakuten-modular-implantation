@@ -1,0 +1,16 @@
+//DEPENDENCES
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/confirmation";
+
+//DECLARATIONS
+//----------------------------------------------
+body.op-confirmation {
+    
+    //IMPLANTACAO
+    @extend %g_confirmation-icons, %d_confirmation-icons;
+    @extend %g_confirmation-tittle, %d_confirmation-tittle;
+    @extend %g_confirmation-buttons, %d_confirmation-buttons;
+    @extend %g_confirmation-prices, %d_confirmation-prices;
+    @extend %g_confirmation-social, %d_confirmation-social;
+}

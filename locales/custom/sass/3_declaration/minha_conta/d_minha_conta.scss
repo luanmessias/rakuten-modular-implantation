@@ -1,0 +1,16 @@
+//DEPENDENCIAS
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/core/core_minha_conta";
+@import "../../2_deploy/minha_conta";
+
+
+//DECLARAÇÕES
+//----------------------------------------------
+body.account.internal{
+    // CORE - NÃO REMOVER
+    @extend %g_core_minha_conta, %d_core_minha_conta;
+
+    //IMPLANTAÇÃO
+    @extend %g_minha_conta, %d_minha_conta;
+}

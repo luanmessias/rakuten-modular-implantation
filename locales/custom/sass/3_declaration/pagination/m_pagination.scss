@@ -1,0 +1,14 @@
+//DEPENDENCIAS
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/pagination";
+
+//DECLARAÇÕES
+//----------------------------------------------
+#main .content .pagination{
+    @extend %g_pagination-container, %m_pagination-container;
+    @extend %g_pagination-firstLast, %m_pagination-firstLast;
+    @extend %g_pagination-txtPage,   %m_pagination-txtPage;
+    @extend %g_pagination-prevNext,  %m_pagination-prevNext;
+    @extend %g_pagination-number,    %m_pagination-number;
+}

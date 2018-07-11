@@ -1,0 +1,17 @@
+//DEPENDENCIAS
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/minicar";
+
+//DECLARAÇÕES
+//----------------------------------------------
+#divSummaryBasket{
+    @extend %d_minicar-containers;
+    @extend %d_minicar-product;
+    @extend %d_minicar-sumcontainer;
+    @extend %d_minicar-buttons;
+}
+
+.headerFixed #divSummaryBasket{
+    @extend %d_minicar-containers--headerfixed;
+}

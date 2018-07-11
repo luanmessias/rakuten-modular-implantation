@@ -1,0 +1,25 @@
+{
+    "cores": [
+        {"name": "footer", "coreVersion": 1},
+        {"name": "header", "coreVersion": 1},
+        {"name": "minha_conta", "coreVersion": 1},
+        {"name": "central_atend", "coreVersion": 1},
+        {"name": "hproduct", "coreVersion": 1},
+        {"name": "product", "coreVersion": 1},
+        {"name": "quickview", "coreVersion": 1},
+        {"name": "look", "coreVersion": 1}
+    ],
+    "banners": [
+        {"name": "banner_home_top", "coreVersion": 1},
+        {"name": "banner_home_main", "coreVersion": 2},
+        {"name": "banner_home_betweenvit", "coreVersion": 2},
+        {"name": "banner_home_bottom", "coreVersion": 2},
+        {"name": "banner_cat_top", "coreVersion": 1},
+        {"name": "banner_cat_main", "coreVersion": 1},
+        {"name": "banner_cat_bottom", "coreVersion": 2},
+        {"name": "banner_vit_top", "coreVersion": 1},
+        {"name": "banner_vit_main", "coreVersion": 2},
+        {"name": "banner_vit_bottom", "coreVersion": 2},
+        {"name": "banner_product_top", "coreVersion": 1}
+    ]
+}

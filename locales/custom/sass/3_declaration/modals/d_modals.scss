@@ -1,0 +1,14 @@
+//DEPENDENCES
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/modals";
+
+//DECLARATIONS
+//----------------------------------------------
+body {
+    @extend %g_modals-container, %d_modals-container;
+    @extend %g_modals-rate, %d_modals-rate;
+    @extend %g_modals-delivery, %d_modals-delivery;
+    @extend %g_modals-indique, %d_modals-indique;
+    @extend %g_modals-alterarSenha, %d_modals-alterarSenha;
+}

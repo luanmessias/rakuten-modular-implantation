@@ -1,0 +1,28 @@
+//DEPENDENCES
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/basket";
+
+//DECLARATIONS
+//----------------------------------------------
+body.basketpage {
+    
+    //IMPLANTACAO
+    @extend %g_basket-bannerPromo, %d_basket-bannerPromo;
+    @extend %g_basket-buttons, %d_basket-buttons;
+    @extend %g_basket-tableHead, %d_basket-tableHead;
+
+    @extend %g_basket-tableBody, %d_basket-tableBody;
+    @extend %g_basket-product, %d_basket-product;
+    @extend %g_basket-description, %d_basket-description;
+    @extend %g_basket-quantity, %d_basket-quantity;
+    @extend %g_basket-delete, %d_basket-delete;
+    @extend %g_basket-unit-value, %d_basket-unit-value;
+    @extend %g_basket-subtotal, %d_basket-subtotal;
+
+    @extend %g_basket-tableFoot, %d_basket-tableFoot;
+    @extend %g_basket-info, %d_basket-info;
+    @extend %g_basket-delivery, %d_basket-delivery;
+    @extend %g_basket-coupon, %d_basket-coupon;
+    @extend %g_basket-stamps, %d_basket-stamps;
+}

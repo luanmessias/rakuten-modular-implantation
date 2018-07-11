@@ -1,0 +1,15 @@
+//DEPENDENCES
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/pedidos";
+
+//DECLARATIONS
+//----------------------------------------------
+body.search-pedidos {
+    
+    //IMPLANTACAO
+    @extend %g_pedidos-text, %m_pedidos-text;
+    @extend %g_pedidos-inputs, %m_pedidos-inputs;
+    @extend %g_pedidos-buttons, %m_pedidos-buttons;
+    @extend %g_pedidos-result, %m_pedidos-result;
+}

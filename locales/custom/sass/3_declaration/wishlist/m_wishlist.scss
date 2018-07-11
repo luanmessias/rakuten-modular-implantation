@@ -1,0 +1,15 @@
+//DEPENDENCIAS
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/wishlist";
+
+//DECLARAÇÕES
+//----------------------------------------------
+body.page-wishlist{
+    @extend %g_wishlist-containers, %m_wishlist-containers;
+    @extend %g_wishlist-filter, %m_wishlist-filter;
+    @extend %g_wishlist-listProd, %m_wishlist-listProd;
+    @extend %g_wishlist-boxDetails, %m_wishlist-boxDetails;
+    @extend %g_wishlist-details, %m_wishlist-details;
+    @extend %g_wishlist-coment, %m_wishlist-coment;
+}

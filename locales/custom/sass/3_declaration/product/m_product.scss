@@ -1,0 +1,47 @@
+//DEPENDENCES
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/core/core_product";
+@import "../../2_deploy/product";
+
+
+
+//DECLARATIONS
+//----------------------------------------------
+body.product{
+
+    //CORE
+    @extend %g_core_product-containers, %m_core_product-containers;
+    @extend %g_core_product-infoProduct, %m_core_product-infoProduct;
+    @extend %g_core_product-photo, %m_core_product-photo;
+    @extend %g_core_product-thumbs, %m_core_product-thumbs;
+    @extend %g_core_product-social, %m_core_product-social;
+    @extend %g_core_product-details, %m_core_product-details;
+
+    //IMPLANTACAO
+    @extend %g_product-nome, %m_product-nome;
+    @extend %g_product-fabcod, %m_product-fabcod;
+    @extend %g_product-reviewagreggate, %m_product-reviewagreggate;
+    @extend %g_product-selos, %m_product-selos;
+    @extend %g_product-offers, %m_product-offers;
+    @extend %g_product-precoDe, %m_product-precoDe;
+    @extend %g_product-precoPor, %m_product-precoPor;
+    @extend %g_product-desconto, %m_product-desconto;
+    @extend %g_product-parcel, %m_product-parcel;
+    @extend %g_product-save, %m_product-save;
+    @extend %g_product-sku, %m_product-sku;
+    @extend %g_product-grid, %m_product-grid;
+    @extend %g_product-buy, %m_product-buy;
+    @extend %g_product-aviseme, %m_product-aviseme;
+    @extend %g_product-resumoDesc, %m_product-resumoDesc;
+    @extend %g_product-tools, %m_product-tools;
+    @extend %g_product-photo, %m_product-photo;
+    @extend %g_product-zoom, %m_product-zoom;
+    @extend %g_product-thumbs, %m_product-thumbs;
+    @extend %g_product-social, %m_product-social;
+    @extend %g_product-stamps, %m_product-stamps;
+    @extend %g_product-descricao, %m_product-descricao;
+    @extend %g_product-carac, %m_product-carac;
+    @extend %g_product-combo, %m_product-combo;
+    @extend %g_product-listProd, %m_product-listProd;
+}

@@ -1,0 +1,14 @@
+//DEPENDENCES
+//----------------------------------------------
+@import "../../1_config/import";
+@import "../../2_deploy/login";
+
+
+//DECLARATIONS
+//----------------------------------------------
+body.loginpage{
+    @extend %g_login-container, %m_login-container;
+    @extend %g_login-form, %m_login-form;
+    @extend %g_login-texts, %m_login-texts;
+    @extend %g_login-globalId, %m_login-globalId;
+}
